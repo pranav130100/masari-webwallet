@@ -1,6 +1,7 @@
 <?php
 
-$testnet = false;
+$testnet = true;
 $cacheLocation = $testnet ? 'cache-testnet' : 'cache';
-$rpcPort = $testnet ? 48081 : 38081;
-$coinSymbol = 'msr';
+$rpcPort = $testnet ? 22122 : 12122;
+$coinSymbol = 'recl';
+>
